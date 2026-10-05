@@ -1,11 +1,21 @@
 {
-  "version": "2.7",
-  "download_url": "https://github.com/rie0303/note-auto-maker/raw/main/Note_Article_Auto_Maker_V2_7.zip",
+  "version": "2.9",
+  "download_url": "https://github.com/rie0303/note-auto-maker/raw/main/Note_Article_Auto_Maker_V2_9_UpdaterFixed.zip",
   "notes": [
-    "アップデート通知を黄色ハイライトで目立つように改善",
-    "新しいバージョンがある場合にアップデート欄を強調表示"
+    "アップデート後にツールが再起動しない問題を修正",
+    "Windowsで止まりやすかったPID監視方式を見直し",
+    "更新完了後に自動再起動する処理を改善"
   ],
   "history": [
+    {
+      "version": "2.9",
+      "date": "2026-10-05",
+      "notes": [
+        "アップデート後に再起動しない問題を修正",
+        "PID監視待ちを廃止して、ファイル差し替え後に自動再起動する方式へ変更",
+        "ファイル使用中の場合の再試行処理を追加"
+      ]
+    },
     {
       "version": "2.7",
       "date": "2026-10-05",
