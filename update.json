@@ -1,11 +1,19 @@
 {
-  "version": "2.4",
-  "download_url": "https://github.com/rie0303/note-auto-maker/raw/main/Note_Article_Auto_Maker_V2_4.zip",
+  "version": "2.5",
+  "download_url": "https://raw.githubusercontent.com/rie0303/note-auto-maker/main/Note_Article_Auto_Maker_V2_5.zip",
   "notes": [
-    "GitHubアップデート機能を追加",
-    "更新履歴表示を追加"
+    "アップデート機能の実動テスト",
+    "v2.4からv2.5への更新確認"
   ],
   "history": [
+    {
+      "version": "2.5",
+      "date": "2026-10-05",
+      "notes": [
+        "アップデート機能の実動テスト用バージョン",
+        "GitHubからv2.4→v2.5へ更新できるか確認"
+      ]
+    },
     {
       "version": "2.4",
       "date": "2026-10-05",
@@ -29,6 +37,20 @@
       "notes": [
         "大見出し・小見出し構成に対応",
         "note標準のクリックできる目次挿入に対応"
+      ]
+    },
+    {
+      "version": "2.1",
+      "date": "2026-10-05",
+      "notes": [
+        "ツール上で目次・見出し・太字を確認できる編集表示を追加"
+      ]
+    },
+    {
+      "version": "2.0",
+      "date": "2026-10-05",
+      "notes": [
+        "noteへの整形自動入力を追加"
       ]
     }
   ]
