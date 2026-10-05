@@ -1,0 +1,35 @@
+{
+  "version": "2.4",
+  "download_url": "https://github.com/rie0303/note-auto-maker/raw/main/Note_Article_Auto_Maker_V2_4.zip",
+  "notes": [
+    "GitHubアップデート機能を追加",
+    "更新履歴表示を追加"
+  ],
+  "history": [
+    {
+      "version": "2.4",
+      "date": "2026-10-05",
+      "notes": [
+        "GitHubを更新元にした最新版チェック機能を追加",
+        "アプリ内アップデート機能を追加",
+        "更新履歴画面を追加",
+        "APIキー・設定を更新後も引き継ぐ設計"
+      ]
+    },
+    {
+      "version": "2.3",
+      "date": "2026-10-05",
+      "notes": [
+        "タイトル直後・目次前に短い導入文を追加"
+      ]
+    },
+    {
+      "version": "2.2",
+      "date": "2026-10-05",
+      "notes": [
+        "大見出し・小見出し構成に対応",
+        "note標準のクリックできる目次挿入に対応"
+      ]
+    }
+  ]
+}
