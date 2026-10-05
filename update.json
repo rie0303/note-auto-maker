@@ -1,12 +1,20 @@
 {
-  "version": "3.0",
-  "download_url": "https://github.com/rie0303/note-auto-maker/raw/main/Note_Article_Auto_Maker_V3_0_LicenseUpdate.zip",
+  "version": "3.1",
+  "download_url": "https://github.com/rie0303/note-auto-maker/raw/main/Note_Article_Auto_Maker_V3_1_LicenseConfigFixed.zip",
   "notes": [
-    "認証済みユーザーだけアップデートできるように変更",
-    "アップデート直前にSupabaseでライセンスを再確認",
-    "ライセンス設定をアップデート後も保持"
+    "ライセンス設定をアップデート後も確実に引き継ぐよう修正",
+    "旧バージョンのlicense_config.jsonを自動検出してWindows設定領域へ移行"
   ],
   "history": [
+    {
+      "version": "3.1",
+      "date": "2026-10-05",
+      "notes": [
+        "license_config.jsonをWindows共通設定領域へ自動移行して保持",
+        "旧バージョンで設定済みのライセンス接続情報を自動検出・引き継ぎ",
+        "アップデート後に認証OFFへ戻る問題を修正"
+      ]
+    },
     {
       "version": "3.0",
       "date": "2026-10-05",
@@ -66,14 +74,6 @@
       "date": "2026-10-05",
       "notes": [
         "タイトル直後・目次前に短い導入文を追加"
-      ]
-    },
-    {
-      "version": "2.2",
-      "date": "2026-10-05",
-      "notes": [
-        "大見出し・小見出し構成に対応",
-        "note標準のクリックできる目次挿入に対応"
       ]
     }
   ]
