@@ -1,11 +1,19 @@
 {
-  "version": "2.5",
-  "download_url": "https://raw.githubusercontent.com/rie0303/note-auto-maker/main/Note_Article_Auto_Maker_V2_5.zip",
+  "version": "2.6",
+  "download_url": "https://github.com/rie0303/note-auto-maker/raw/main/Note_Article_Auto_Maker_V2_6.zip",
   "notes": [
-    "アップデート機能の実動テスト",
-    "v2.4からv2.5への更新確認"
+    "起動時に新しいバージョンがある場合『アップデートしてください』と自動通知",
+    "通知からそのままアップデートを開始できるように改善"
   ],
   "history": [
+    {
+      "version": "2.6",
+      "date": "2026-10-05",
+      "notes": [
+        "起動時に新しいバージョンがある場合『アップデートしてください』と自動通知する機能を追加",
+        "通知からそのままアップデートを開始できるように改善"
+      ]
+    },
     {
       "version": "2.5",
       "date": "2026-10-05",
